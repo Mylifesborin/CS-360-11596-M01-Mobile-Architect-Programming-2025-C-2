@@ -1,28 +1,35 @@
-# CS-360-11596-M01-Mobile-Architect-Programming-2025-C-2
+# CS 360 Mobile App Project
 
 This mobile app project is a weight-tracking tool that lets users log entries, view data, and receive SMS alerts for reaching goals. It focuses on clean design, user-friendly navigation, and strong backend integration with an SQLite database.
 
-App Summary
+## App Summary
 The app was designed to help users track their daily weight changes and stay motivated by receiving SMS notifications when they reach goals. It focuses on simple, intuitive interactions and visual clarity.
 
-Screens and Features
-Login Screen: For user authentication and account creation.
+## Screens and Features
+- **Login Screen**: User authentication and account creation
+- **Dashboard Screen**: Grid layout for viewing weight entries
+- **SMS Notification Screen**: Permission request and alerts
 
-Dashboard Screen: Displays weight entries in a readable grid layout.
+UI designs were focused on keeping interactions simple, direct, and user-friendly.
 
-SMS Notification Screen: Prompts for SMS permissions and sends alerts.
+## Coding Approach
+- Built UI layouts first
+- Added database functionality (SQLite)
+- Kept classes modular
+- Used Android Emulator for regular testing
 
-The design kept users in mind by making sure screens were simple, direct, and easy to navigate without extra clutter.
+## Testing Process
+- Tested login flows
+- Verified database CRUD operations
+- Checked SMS permission handling
 
-Coding Approach
-I started by building the basic UI layouts and then coded the database connection and functionality step-by-step. I heavily used testing in the Android Emulator and kept my code modular, with each class serving a specific purpose.
+Testing helped catch UI bugs and permission issues early.
 
-Testing Process
-Testing was done on the Android Emulator, covering login flows, database functions (create, read, update, delete), and SMS permissions. Testing helped catch minor UI bugs and permission handling issues early.
+## Overcoming Challenges
+- Handled denied SMS permissions gracefully
+- Used fallback logic to ensure app stability
 
-Overcoming Challenges
-One major challenge was handling permissions smoothly so that if the user denied SMS permissions, the app would still function normally. I used condition checks and fallback messages to solve this.
-
-Strengths Demonstrated
-I am particularly proud of how the database and UI came together. The app consistently reads and updates user data, and the SMS feature makes it feel dynamic and responsive.
-
+## Strengths Demonstrated
+- Strong database integration
+- Clean and usable UI
+- Reliable SMS notification feature
